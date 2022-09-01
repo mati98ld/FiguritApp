@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiguritApp</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <div class="row justify-content-start mt-2">
+            <div class="col">
+                <nav class="navbar bg-light mb-0 pb-0 border">
+                    <h1 class="navbar-brand fs-2 fw-bold mb-0">
+                        <img src="./fifa-world-cup-2022-logo-0E5F05028D-seeklogo.com.png" alt="" width="35px"
+                            class="d-inline-block align-text-center">
+                        FiguritApp
+                    </h1>
+                </nav>
+            </div>
+        </div>
+        <hr class="mb-3 mt-0">
+        <div class="btn-group w-100" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Todas</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Me faltan</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Repetidas</label>
+        </div>
+        <hr>
+        <div id="botonera">
+            <div class="seccion">
+                <h3 class="text-start">Especiales</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">07</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Estadios y Pelota</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button" class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">18</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Catar</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Ecuador</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Senegal</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Holanda</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Inglaterra</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Iran</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Estados Unidos</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Gales</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Argentina</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Arabia Saudita</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">México</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Polonia</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Francia</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Australia</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Dinamarca</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Tunez</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">España</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Costa Rica</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Alemania</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Japon</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Belgica</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Canada</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Marruecos</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Croacia</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Brasil</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Serbia</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Suiza</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Camerún</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Portugal</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Ghana</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Uruguay</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Corea del Sur</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button"
+                            class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">01</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">02</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">03</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">04</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">05</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">06</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">07</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">08</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">09</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">10</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">11</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">12</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">13</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">14</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">15</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">16</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">17</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">18</button>
+                        <button type="button"
+                            class="btn btn-outline-dark btn-lg rounded-circle fs-1 m-2">19</button>
+                    </div>
+                    <hr>
+            </div>
+            <div class="seccion">
+                <h3 class="text-start">Museo</h2>
+                    <div class="d-flex justify-content-start flex-wrap">
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">19</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">20</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">21</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">22</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">23</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">24</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">25</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">26</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">27</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">28</button>
+                        <button type="button" class="btn btn-outline-warning btn-lg rounded-circle fs-1 m-2">29</button>
+                    </div>
+                    <hr>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
